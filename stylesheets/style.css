@@ -3,7 +3,7 @@
   body,
   body#home {
     background-color: #ababab;
-    font: 12px/18px "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+    /* font: 12px/18px "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif; */
     margin: 0;
     padding: 0;
   }
@@ -340,15 +340,15 @@
     height: 100px;
   }
 
-  #threeDSpan {
-    height: 100%;
+  /* #threeDSpan {
+    height: calc(100% - 100px);
     width: 100%;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
     position: absolute;
     z-index: 1;
-  }
+  } */
 
   div.panel span.content,
   div.panel p {
