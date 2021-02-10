@@ -3,7 +3,7 @@
   body,
   body#home {
     background-color: #ababab;
-    /* font: 12px/18px "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif; */
+    font: 12px/18px "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
     margin: 0;
     padding: 0;
   }
@@ -340,15 +340,15 @@
     height: 100px;
   }
 
-  /* #threeDSpan {
-    height: calc(100% - 100px);
+  #threeDSpan {
+    height: 100%;
     width: 100%;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
     position: absolute;
     z-index: 1;
-  } */
+  }
 
   div.panel span.content,
   div.panel p {
@@ -431,7 +431,7 @@
 	-webkit-border-radius: 1em;
 	-moz-border-radius: 1em;
 	border-radius: 1em;
-	
+
 	-webkit-transition: all .5s;
 	-moz-transition: all .5s;
 	transition: all .5s;
@@ -575,7 +575,7 @@
 
   /********** PSSH VIEW ***********/
 
-  div.panel#structure-viewer.fullscreen {
+  div.panel#structureviewer.fullscreen {
     position: absolute;
     top: 0;
     left: 0;
@@ -583,9 +583,9 @@
     height: 100%;
   }
 
-  /* #threeD.threedcontent.fullscreen {
+  span#threeD.threedcontent.fullscreen {
     height: 100%;
-  } */
+  }
 
   div.container {
     height: 40px;
@@ -982,7 +982,7 @@ div.balloon p.quality.high { background: #555; color: #DFF; }
   }
 
   g.x path.domain {
-    /*fill: #FFF; 
+    /*fill: #FFF;
 	stroke: none;*/
     fill: none;
     stroke: black;
@@ -1118,15 +1118,15 @@ div.balloon p.quality.high { background: #555; color: #DFF; }
     padding: 2px 5px;
     cursor: default;
     display: block;
-    /* 
-	if width will be 100% horizontal scrollbar will apear 
+    /*
+	if width will be 100% horizontal scrollbar will apear
 	when scroll mode will be used
 	*/
     /*width: 100%;*/
     font: menu;
     font-size: 12px;
-    /* 
-	it is very important, if line-height not set 
+    /*
+	it is very important, if line-height not set
 	or in relative units scroll will be broken in firefox
 	*/
     line-height: 16px;
@@ -1346,4 +1346,6 @@ div.balloon p.quality.high { background: #555; color: #DFF; }
     height: 0;
     width: 0;
   }
+
+
 }
